@@ -8,8 +8,8 @@
         <h1>강의신청 학생 정보 조회 👩🏻‍💻</h1>
         <form action="${pageContext.servletContext.contextPath}/student/select">
             <div class="tb">
-                <label for="studentName1">조회할 학생 코드 : </label>
-                <input type="text" id="studentName1" name="studentName"><br>
+                <label for="studentCode">조회할 학생 코드 : </label>
+                <input type="text" id="studentCode" name="studentCode"><br>
             </div>
             <button>조회하기</button>
         </form>
